@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto Condensed";
+}
+body {
+  background-color: rgb(212, 212, 212);
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: white;
+  box-shadow: 30px 0px 40px rgb(0 0 0 / 10%), -30px 0px 40px rgb(0 0 0 / 10%);
+}
+.container .title {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+.container .title .left-part {
+  width: 45%;
+}
+.container .title .left-part h1 {
+  font-weight: 400;
+  color: black;
+  font-size: 50px;
+}
+.container .title .left-part h3 {
+  color: #888;
+  font-weight: 400;
+  padding-top: 5px;
+}
+.container .title .left-part button {
+  padding: 15px 25px;
+  border-color: transparent;
+  margin-top: 25px;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+.container .title .left-part button:hover {
+  background-color: #ccc;
+  cursor: pointer;
+}
+.container .title .right-part {
+  width: 55%;
+}
+.container .title .right-part img {
+  width: 100%;
+}
+.work {
+  margin-top: -5px;
+  text-align: center;
+  width: 100%;
+  background-color: #333;
+  color: white;
+}
+.work h2 {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 1rem;
+  text-transform: capitalize;
+  margin: 27px;
+  padding: 3px 15px;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+}
+.photo img {
+  width: 100%;
+}
+.photo .detail {
+  text-align: center;
+  padding: 0.8rem;
+}
+.photo .detail h3 {
+  padding: 1rem;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+}
+.photo .detail p {
+  padding: 1rem;
+}
+.footer {
+  text-align: center;
+  margin: auto;
+  padding: 2rem 1rem;
+}
+.footer h3 {
+  font-size: 3rem;
+}
+.footer p {
+  margin: 15px 0;
+  color: #444;
+}
